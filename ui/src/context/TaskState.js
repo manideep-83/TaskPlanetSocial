@@ -9,7 +9,7 @@ const TaskState = (props) => {
 
     const initial = { username: "", email: "", password: "", cpassword: "" };
     const [credentials, setCredentials] = useState(initial);
-    const host="http://localhost:5000";
+    const host="https://taskplanetsocial-pxj5.onrender.com";
     // login api 
     const login = async () => {
         setLoading(true);
